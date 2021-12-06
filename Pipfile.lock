@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "dadaa53b65123ee888d16d324e737e6929c348f25ad50e25ebcab39c48d22e45"
+            "sha256": "2c2fde6417d0dbc2612044ab792a7dbdc689e15e0659007310172cb8c591592e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -54,10 +54,6 @@
             ],
             "index": "pypi",
             "version": "==9.9.0"
-        },
-        "hello-world": {
-            "path": "./hello_world",
-            "version": "==1.0.0"
         },
         "idna": {
             "hashes": [

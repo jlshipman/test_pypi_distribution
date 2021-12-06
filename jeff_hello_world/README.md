@@ -63,11 +63,14 @@ python3 setup.py bdist_wheel
 
 - python3 -m pip install --upgrade twine
 - python3 -m twine upload --repository testpypi dist/*
+  - This is pypi's test repository
   - You will be prompted for a username and password. 
-    - For the username, use __token__. 
+    - For the username, use ```__token__```. 
     - For the password, use the token value, including the pypi- prefix.
   - repository may be set in the .pypirc file 
     - have not got this to work
+  - For pypi's actual repository you would do the following
+    - Python3 -m twine upload --repository pypi dist/*
 ```
 [distutils]
 index-servers = testpypi
@@ -77,3 +80,7 @@ username = __token__
 password = pypi-AgENdGVzdC5weXBpLm9yZwIkNjA2ZGJiNTMtMDMwMi00
 repository = https://test.pypi.org/legacy/
 ```
+
+# local installation
+
+pipenv install .
