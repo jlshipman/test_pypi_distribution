@@ -1,3 +1,0 @@
-[console_script]
-hello_world_cli = hello_world.command_line:main
-
