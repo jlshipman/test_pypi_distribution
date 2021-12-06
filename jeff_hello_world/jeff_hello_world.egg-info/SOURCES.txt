@@ -1,0 +1,7 @@
+README.md
+setup.py
+jeff_hello_world.egg-info/PKG-INFO
+jeff_hello_world.egg-info/SOURCES.txt
+jeff_hello_world.egg-info/dependency_links.txt
+jeff_hello_world.egg-info/entry_points.txt
+jeff_hello_world.egg-info/top_level.txt
