@@ -87,6 +87,6 @@ pipenv install .
 
 # testing packages from your local
 
- pipenv install --dev -e <local repo>
+pipenv install --dev -e ```<local repo>```
 
-<local repo> is the relative location from the installation to the local repo
+```<local repo>``` is the relative location from the installation to the local repo
