@@ -12,6 +12,7 @@ xmltodict = "*"
 scapy = "2.4.5"
 pycap = "*"
 pytest = "*"
+jeff-hello-world = {editable = true, path = "./jeff_hello_world"}
 
 [dev-packages]
 

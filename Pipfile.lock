@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2c2fde6417d0dbc2612044ab792a7dbdc689e15e0659007310172cb8c591592e"
+            "sha256": "adb01f0a90466abcbf6ed215649d86bee73b1a6afb6fe6673720ad055cebfd1f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -49,11 +49,11 @@
         },
         "faker": {
             "hashes": [
-                "sha256:049185d17ff95c4311557da6b72416c18732e5977dcfd116a323b6d620db5dca",
-                "sha256:7227703a3db36ed8241108547544445f45aa45db2f3f63e885cb9b5699383f0e"
+                "sha256:3163c84866cf118ac5329a802e046b0f729528ce62ebb2806b626e0badbb6ff3",
+                "sha256:530690ad12a2a054071af95fc8a354c5fd57b5e7707053a9662f40f14a87b68e"
             ],
             "index": "pypi",
-            "version": "==9.9.0"
+            "version": "==10.0.0"
         },
         "idna": {
             "hashes": [
@@ -69,6 +69,10 @@
                 "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"
             ],
             "version": "==1.1.1"
+        },
+        "jeff-hello-world": {
+            "editable": true,
+            "path": "./jeff_hello_world"
         },
         "packaging": {
             "hashes": [

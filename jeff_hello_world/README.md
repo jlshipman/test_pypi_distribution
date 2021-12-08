@@ -81,11 +81,15 @@ password = pypi-AgENdGVzdC5weXBpLm9yZwIkNjA2ZGJiNTMtMDMwMi00
 repository = https://test.pypi.org/legacy/
 ```
 
-# local installation
+# local installation into another framework
 
-pipenv install .
+```pipenv install ../../distributions/jeff_file_logger/jeff_file_logger```
 
-# testing packages from your local
+#  local installation into the same local distribution
+
+from within the distribution directory the follow install the distribution
+
+```pipenv install -e jeff_hello_world```
 
 pipenv install --dev -e ```<local repo>```
 
